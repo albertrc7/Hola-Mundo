@@ -8,10 +8,10 @@
 }
 
 .container2 {
-    margin-left: auto;
-    margin-right: auto;
+    
     margin-top: 50px;
     border-style: solid;
+    border-radius: 30px;
     display: inline-block; /* Cambiado a inline-block */
     padding: 10px; /* Eliminar padding para ajustar el borde */
 }
@@ -19,4 +19,19 @@
 
 #imagen2{
     width: 200px;
+    
+    
+}
+
+#imagen3{
+    margin-top: 20px;
+    width: 120px;
+}
+#imagen1:hover{
+    cursor: pointer;
+    opacity: 0.9;;
+}
+
+#imagen1:active{
+    transform: scale(1.02);
 }
