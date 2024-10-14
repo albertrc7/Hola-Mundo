@@ -8,12 +8,16 @@
 }
 
 .container2 {
-    
-    margin-top: 50px;
-    border-style: solid;
+    margin-top: 100px;
+    width: 400px; /* Ajusta el ancho deseado */
+    height: 400px; /* Fija la altura para mantener el tamaño uniforme */
     border-radius: 30px;
-    display: inline-block; /* Cambiado a inline-block */
-    padding: 10px; /* Eliminar padding para ajustar el borde */
+    border: 3px solid ; /* Opcional, para ver los límites del contenedor */
+}
+
+.imagen-fija {
+    max-height: 250px; /* Limita la altura de la imagen dentro del contenedor */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien sin distorsión */
 }
 
 
