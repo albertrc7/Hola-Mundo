@@ -1,0 +1,22 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contador1{
+    font-size: 2em;
+}
+
+.container2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    display: inline-block; /* Cambiado a inline-block */
+    padding: 10px; /* Eliminar padding para ajustar el borde */
+}
+
+
+#imagen2{
+    width: 200px;
+}
