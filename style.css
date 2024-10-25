@@ -6,6 +6,22 @@
 #contador1{
     font-size: 2em;
 }
+.navbar{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    margin-bottom: 20px;  
+}
+ 
+.title {
+    font-family: 'Press Start 2P', cursive; /* Fuente de estilo retro de videojuegos */
+    font-size: 36px; /* Tamaño de la fuente */
+    color: #ffcc00; /* Color dorado para el texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Sombra para dar profundidad */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    text-align: center; /* Centra el texto */
+}
+
 
 .container2 {
     margin-top: 100px;
@@ -22,9 +38,7 @@
 
 
 #imagen2{
-    width: 200px;
-    
-    
+    width: 200px;    
 }
 
 #imagen3{
@@ -39,3 +53,4 @@
 #imagen1:active{
     transform: scale(1.02);
 }
+
